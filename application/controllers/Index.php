@@ -14,6 +14,7 @@ class Index extends CI_Controller {
 	}
 	public function index()
 	{
+		print_r($this->config->item('index_page'));
 		$this->load->view('index');
 	}
 }
