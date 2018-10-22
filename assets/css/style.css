@@ -1,0 +1,46 @@
+/* 样式重置 */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+  color: #101010
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #101010;
+}
+
+img {
+  border: none;
+}
+
+/* 清楚浮动 防止上边距折叠 */
+.clearfix::before,
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* 通用宽度 */
+.common-width{
+  margin: 0 auto;
+  max-width: 1200px;
+}
