@@ -1,6 +1,6 @@
 <header>
   <div class="header-contect common-width clearfix">
-    <div class="header-logo">这里是 logo 企业名称</div>
+    <div class="header-logo"><img src="http://watch-1058141.pic41.websiteonline.cn/upload/logo.png" alt=""></div>
     <nav class="header-menu">
       <ul>
         <li><a href="http://">网站首页</a></li>
