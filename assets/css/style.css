@@ -30,17 +30,79 @@ img {
 
 /* 清楚浮动 防止上边距折叠 */
 .clearfix::before,
-.clearfix::after{
+.clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
+
 .clearfix:after {
   clear: both;
 }
 
 /* 通用宽度 */
-.common-width{
+.common-width {
   margin: 0 auto;
   max-width: 1200px;
+}
+
+@media only screen and (min-width:1281px) and (max-width: 1366px) {
+  .common-width {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1280px) {
+
+  html,
+  body {
+    font-size: 12px;
+  }
+
+  .common-width {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (min-width:200px) and (max-width: 767px) {
+
+  html,
+  body {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+
+  .common-width {
+    max-width: 100%;
+  }
+}
+
+/* 导航菜单 */
+header{
+  background: #fff;
+}
+.header-contect{
+  padding: 1em 0;
+}
+.header-logo{
+  float: left;
+}
+.header-menu{
+  float: right;
+}
+.header-menu li {
+  float: left;
+}
+.header-menu a{
+  display: block;
+  padding: 0 1.5em;
+  height: 2.4em;
+  line-height: 2.4em;
+  font-size: 1.14em;
+}
+@media only screen and (min-width: 768px){
+  .header-menu a:hover {
+    color: #fff;
+    background: #ff8800;
+  }
 }
