@@ -23,6 +23,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 	<?php $this->load->view('common/header_nav');?>
 
-
+	
 </body>
 </html>
