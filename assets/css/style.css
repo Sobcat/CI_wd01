@@ -123,9 +123,7 @@ header {
 @media only screen and (min-width: 751px) {
   .header-menu a:hover {
     color: #fff;
-    /* background: #ff8800; */
-    background: #156cfd;
-    
+    background: #ff8800;
   }
 }
 
@@ -145,11 +143,11 @@ header {
     justify-content: center;
     box-sizing: border-box;
     float: right;
-    height: 36px;
-    width: 36px;
+    height: 40px;
+    width: 40px;
     border-radius: 4px;
-    /* background: #ff8800; */
-    background: #156cfd;
+    background: #ff8800;
+    /* background: #156cfd; */
 
   }
   .mini-icon>div{
@@ -198,4 +196,18 @@ header {
     background: rgba(0, 0, 0, .8);
     transition: display .5s ease;
   }
+}
+
+/* 首页 banner */
+.banner {
+ 
+}
+@media only screen and (min-width: 751px){
+  .banner {
+    height: 600px;
+    background: url('/assets/images/banner.jpg') center no-repeat;
+  }
+}
+@media only screen and (max-width: 750px) {
+
 }

@@ -21,8 +21,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 </head>
 <body>
+	<!-- 导航菜单 -->
 	<?php $this->load->view('common/header_nav');?>
-
+	<!-- 导航菜单 end -->
+	<!-- banner -->
+	<div class="banner">
+		<div class="banner-text">
+		
+		</div>
+		<div class="banner-img">
+		
+		</div>
+	</div>
+	<!-- banner end -->
 	
 </body>
 </html>
