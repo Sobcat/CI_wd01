@@ -114,12 +114,15 @@ header {
   line-height: 2.5em;
   font-size: 1.15em;
 }
+
 .mini-icon-container {
   display: none;
 }
+
 .mini-menu-close {
   display: none;
 }
+
 @media only screen and (min-width: 751px) {
   .header-menu a:hover {
     color: #fff;
@@ -131,13 +134,15 @@ header {
   .header-logo {
     width: 80%;
   }
+
   .mini-icon-container {
     display: block;
     float: right;
     width: 20%;
   }
-  .mini-icon{
-    display: flex; 
+
+  .mini-icon {
+    display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -150,12 +155,14 @@ header {
     /* background: #156cfd; */
 
   }
-  .mini-icon>div{
+
+  .mini-icon>div {
     margin: 2px 0;
     width: 20px;
     height: 3px;
     background: #fff;
   }
+
   .header-logo a {
     width: 40%;
     min-width: 120px;
@@ -164,10 +171,12 @@ header {
   .header-logo span {
     font-size: 1.5em;
   }
+
   .mini-menu-close {
     display: block;
   }
-  .header-menu{
+
+  .header-menu {
     /* display: none; */
     position: fixed;
     z-index: 9;
@@ -178,15 +187,18 @@ header {
     background: rgba(0, 0, 0, .8);
     transition: right .5s ease;
   }
-  .header-menu ul{
+
+  .header-menu ul {
     width: 100%;
     height: 100%;
     background: #fff;
   }
-  .header-menu li{
+
+  .header-menu li {
     float: none;
-  
+
   }
+
   #menu-mask {
     display: none;
     position: fixed;
@@ -200,14 +212,86 @@ header {
 
 /* 首页 banner */
 .banner {
- 
+  background: #3a3a3a;
 }
-@media only screen and (min-width: 751px){
+
+.banner-content {
+  position: relative;
+}
+
+@media only screen and (min-width: 751px) {
   .banner {
     height: 600px;
-    background: url('/assets/images/banner.jpg') center no-repeat;
+    /* background: url('/assets/images/banner.jpg') center no-repeat; */
+
+  }
+
+  .banner-content>div {
+    background: #ffc600;
+    /* background: #ff8800; */
+    position: absolute;
+  }
+
+  .banner-block-mian {
+    width: 400px;
+    height: 400px;
+    top: 100px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: mainEffect 1.5s forwards;
+  }
+
+  .banner-block-min01,
+  .banner-block-min02 {
+    box-sizing: border-box;
+    width: 58px;
+    height: 58px;
+    border: 6px #fff solid;
+  }
+
+  .banner-block-min03,
+  .banner-block-min04 {
+    width: 21px;
+    height: 21px;
+  }
+
+  .banner-block-min01 {
+    top: 68px;
+    left: 320px;
+    animation: min01Effect 1.5s forwards;
+  }
+  .banner-block-min03{ 
+    top: 40px;
+    left: 390px;
+    animation: min03Effect 1.5s forwards;
+  }
+  @keyframes mainEffect {
+    from {
+      left: -150px;
+    }
+
+    to {
+      left: 0;
+    }
+  }
+
+  @keyframes min01Effect {
+    from {
+      top: 0;
+    }
+
+    to {
+      top: 68px;
+    }
+  }
+  @keyframes min03Effect {
+    from {
+      top: 0;
+    }
+
+    to {
+      top: 40px;
+    }
   }
 }
-@media only screen and (max-width: 750px) {
 
-}
+@media only screen and (max-width: 750px) {}

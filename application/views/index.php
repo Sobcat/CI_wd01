@@ -26,11 +26,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- 导航菜单 end -->
 	<!-- banner -->
 	<div class="banner">
-		<div class="banner-text">
-		
-		</div>
-		<div class="banner-img">
-		
+		<div class="banner-content common-width">
+			<div class="banner-block-mian"></div>
+			<div class="banner-block-min01"></div>
+			<div class="banner-block-min02"></div>
+			<div class="banner-block-min03"></div>
+			<div class="banner-block-min04"></div>
 		</div>
 	</div>
 	<!-- banner end -->
