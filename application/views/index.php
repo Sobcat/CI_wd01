@@ -27,7 +27,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- banner -->
 	<div class="banner">
 		<div class="banner-content common-width">
-			<div class="banner-block-mian"></div>
+			<div class="banner-block-mian">
+				<div class="bbm-text">
+					<span>内容内容</span>
+					<span>内容内容</span>
+					<p>内容内容内容内容内容内容内容内容</p>
+				</div>
+			</div>
 			<div class="banner-block-min01"></div>
 			<div class="banner-block-min02"></div>
 			<div class="banner-block-min03"></div>
@@ -35,6 +41,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 	<!-- banner end -->
+	<!-- 简介 -->
+	<div class="common-width clearfix about">
+		<div class="about-main">
+			<div class="a-title clearfix">
+				<h1 class="fl">公司简介</h1>
+				<span  class="fr">
+					<a href="">MORE</a>
+				</span>
+			</div>
+			<div class="a-text">
+				内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+			</div>
+		</div>
+		<div class="about-img">
+			<img src="/assets/images/home_about.jpg" alt="img">
+			<span></span>
+		</div>
+	</div>
+	<!-- 简介 end-->
 	
 </body>
 </html>
