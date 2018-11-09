@@ -42,24 +42,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 	<!-- banner end -->
 	<!-- 简介 -->
-	<div class="common-width clearfix about">
-		<div class="about-main">
-			<div class="a-title clearfix">
-				<h1 class="fl">公司简介</h1>
-				<span  class="fr">
-					<a href="">MORE</a>
-				</span>
+	<div class="common-width about">
+		<div class="clearfix">
+			<div class="about-main">
+				<div class="title clearfix">
+					<h1 class="">公司简介</h1>
+					<span  class="">
+						<a href="">MORE</a>
+					</span>
+				</div>
+				<div class="a-text">
+					内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+				</div>
 			</div>
-			<div class="a-text">
-				内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+			<div class="about-img">
+				<img src="/assets/images/home_about.jpg" alt="img">
+				<span></span>
 			</div>
 		</div>
-		<div class="about-img">
-			<img src="/assets/images/home_about.jpg" alt="img">
-			<span></span>
-		</div>
+			<div class="a-phone">
+				<div><span></span> <strong>全国服务热线：</strong><strong>400-000-0000</strong> <span></span></div>
+			</div>
 	</div>
 	<!-- 简介 end-->
+	<!-- 产品展示 -->
+	<div class="common-width product">
+		<div class="title clearfix">
+					<h1 class="">产品展示</h1>
+					<span  class="">
+						<a href="">MORE</a>
+					</span>
+			</div>
+			<ul class="product-list clearfix product-list-01">
+				<li><img src="" alt=""><span></span></li>
+				<li><img src="" alt=""><span></span></li>
+				<li><img src="" alt=""><span></span></li>
+				<li><img src="" alt=""><span></span></li>
+			</ul>
+			<ul class="product-list clearfix product-list-02">
+				<li><img src="" alt=""><span></span></li>
+				<li><img src="" alt=""><span></span></li>
+				<li><img src="" alt=""><span></span></li>
+				<li><img src="" alt=""><span></span></li>
+			</ul>
+	</div>
+	<!-- 产品展示 end-->
 	
 </body>
 </html>
