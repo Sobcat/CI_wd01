@@ -113,5 +113,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 	<!-- 在线留言 end -->
+	<!-- 页脚 -->
+	<?php $this->load->view('common/footer');?>
+	<!-- 页脚 end -->
 </body>
 </html>

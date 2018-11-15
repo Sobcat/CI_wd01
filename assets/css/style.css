@@ -680,3 +680,7 @@ form button:hover {
     display: none;
   }
 }
+/* 页脚 */
+footer{
+  background: #f3f3f3;
+}
