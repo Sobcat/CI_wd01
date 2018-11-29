@@ -4,20 +4,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html lang="">
 <head>
-	<meta charset="utf-8">
-	<meta name="renderer" content="webkit">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-	<meta http-equiv="Cache-Control" content="no-siteapp" />
-	<meta name="robots" content="index, follow" />
-	<meta name="format-detection" content="telephone=no" />
+	<?php $this->load->view('common/head');?>
 
 	<meta name="Keywords" content="">
 	<meta name="Description" content="">
 	<title></title>
-
-	<link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="/assets/css/style.css">
 	
 </head>
 <body>
@@ -25,21 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<?php $this->load->view('common/header_nav');?>
 	<!-- 导航菜单 end -->
 	<!-- banner -->
-	<div class="banner">
-		<div class="banner-content common-width">
-			<div class="banner-block-mian">
-				<div class="bbm-text">
-					<span>内容内容</span>
-					<span>内容内容</span>
-					<p>内容内容内容内容内容内容内容内容</p>
-				</div>
-			</div>
-			<div class="banner-block-min01"></div>
-			<div class="banner-block-min02"></div>
-			<div class="banner-block-min03"></div>
-			<div class="banner-block-min04"></div>
-		</div>
-	</div>
+	<?php $this->load->view('common/banner');?>
 	<!-- banner end -->
 	<!-- 简介 -->
 	<div class="common-width about">
@@ -91,9 +68,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="common-width online-message">
 		<div class="title clearfix">
 					<h1 class="">在线留言</h1>
-					<span  class="">
-						<a href="">MORE</a>
-					</span>
 		</div>
 		<p>如果对我们的产品有订购需求或者有什么建议，欢迎在线留言，我们真诚为您服务！</p>
 		<div class="clearfix">

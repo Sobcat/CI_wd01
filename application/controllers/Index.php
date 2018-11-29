@@ -12,8 +12,38 @@ class Index extends CI_Controller {
 			parent::__construct();
 			// Your own constructor code
 	}
-	public function index()
+	// 首页
+	public function index() 
 	{
 		$this->load->view('index');
+	}
+
+	// 简介
+	public function about()
+	{
+		$this->load->view('about');
+	}
+
+	// 产品
+	public function product()
+	{
+		$this->load->view('product');
+	}
+	// 产品detail
+	public function product_detail()
+	{
+		$this->load->view('product_detail');
+	}
+
+	// 留言
+	public function message()
+	{
+		$this->load->view('message');
+	}
+
+	// 联系
+	public function contact()
+	{
+		$this->load->view('contact');
 	}
 }
