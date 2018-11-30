@@ -27,12 +27,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- 产品图片 -->
 					<div class="img-min">
 						<!-- 小图 -->
-						<img src="" alt="">
+						<img src="/assets/images/lyt1.jpg" alt="">
 						<span id="mousebg"></span>
 					</div>
 					<!-- 放大图 -->
 					<div class="img-max">
-						<img src="" alt="" id="img-max-img">
+						<img src="/assets/images/lyt1.jpg" alt="" id="img-max-img">
 					</div>
 				</div>
 				<div class="product-detail-right">
@@ -51,7 +51,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script>
 		// 图片放大效果
 		var imgMin = 	document.getElementsByClassName('img-min');
-		
+		var imgMax = document.getElementsByClassName('img-max');
+		var mouseBg = document.getElementById('mouseBg');
+		imgMin.onmouseover = function(){
+			// 鼠标进入
+			imgMax.style.display = 'block';
+			mouseBg.style.display = 'block';
+		};
+		imgMin.onmouseout = function(){
+			// 鼠标进入
+			imgMax.style.display = 'none';
+			mouseBg.style.display = 'none';
+		};
+		var _event = event || window.event;
+		 var mouseX = _event.clientX - img1.offsetLeft; 
+		//计算鼠标相对与小图的位置 
+		var mouseY = _event.clientY  - img1.offsetTop; 
+		//特殊情况处理，分别靠近四条边的时候 
+		if(mouseX<mousebg.offsetWidth/2){ 
+			mouseX = mousebg.offsetWidth/2; 
+		} 
+		if(mouseX>img1.offsetWidth-mousebg.offsetWidth/2){ 
+			mouseX = img1.offsetWidth-mousebg.offsetWidth/2; 
+		} 
+		if(mouseY<mousebg.offsetHeight/2){ 
+			mouseY = mousebg.offsetHeight/2; 
+		} 
+		if(mouseY>img1.offsetHeight-mousebg.offsetHeight/2){ 
+			mouseY = img1.offsetHeight-mousebg.offsetHeight/2; 
+		} 
+		 //计算大图的显示范围 
+		img2_img.style.left = -mul*mouseX+img2.offsetWidth/2+"px"; 
+		img2_img.style.top = -mul*mouseY+img2.offsetHeight/2+"px"; 
+		//使鼠标在白块的中间 
+		mousebg.style.left = mouseX-mousebg.offsetWidth/2+"px"; 
+		mousebg.style.top = mouseY-mousebg.offsetHeight/2+"px"; 
 	</script>
 
 </body>
