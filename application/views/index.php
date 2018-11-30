@@ -51,16 +51,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</span>
 			</div>
 			<ul class="product-list clearfix product-list-01">
-				<li><img src="/assets/images/kl.jpg" alt=""><span>名字</span></li>
-				<li><img src="/assets/images/kl.jpg" alt=""><span>名字</span></li>
-				<li><img src="/assets/images/kl.jpg" alt=""><span>名字</span></li>
-				<li><img src="/assets/images/kl.jpg" alt=""><span>名字</span></li>
+				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
+				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
+				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
+				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
 			</ul>
 			<ul class="product-list clearfix product-list-02">
-				<li><img src="/assets/images/kl.jpg" alt=""><span>名字</span></li>
-				<li><img src="/assets/images/kl.jpg" alt=""><span>名字</span></li>
-				<li><img src="/assets/images/kl.jpg" alt=""><span>名字</span></li>
-				<li><img src="/assets/images/kl.jpg" alt=""><span>名字</span></li>
+				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
+				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
+				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
+				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
 			</ul>
 	</div>
 	<!-- 产品展示 end-->
