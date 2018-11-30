@@ -24,7 +24,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<h1 class="">产品展示</h1>
 			<div class="product-detail">
 				<div class="product-detail-left">
-
+					<!-- 产品图片 -->
+					<div class="img-min">
+						<!-- 小图 -->
+						<img src="" alt="">
+						<span id="mousebg"></span>
+					</div>
+					<!-- 放大图 -->
+					<div class="img-max">
+						<img src="" alt="" id="img-max-img">
+					</div>
 				</div>
 				<div class="product-detail-right">
 
@@ -39,6 +48,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<?php $this->load->view('common/footer');?>
 	<!-- 页脚 end -->
 	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		// 图片放大效果
+		var imgMin = 	document.getElementsByClassName('img-min');
+		
+	</script>
 
 </body>
 </html>
