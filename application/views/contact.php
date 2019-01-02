@@ -21,10 +21,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="common-width sub-page">
 		<h1 class="">联系我们</h1>
 		<div class="contact-title">
-			<h1>全国服务热线：400-000-0000</h1>
+			<h1>全国服务热线：0757-81826024</h1>
 			<div class="contact-text" style="font-family: 微软雅黑; font-size: 16px; line-height: 312%; color: rgb(62, 61, 	61);">
-				<span>电话：666-123456 </span><span>传真：666-123456</span><span>手机：1234567XXXX</span><div class="ye"></div>
-				<span>邮箱：moumou@163.com</span><span> 地址：上海市某某区某某街道某某号某某栋</span>
+				<span>电话：0757-81826024 / 0757-81826034 </span><span>传真：0757-81792989</span><span></span><div class="ye"></div>
+				<span>邮箱：PINRUIJIXIE@163.com</span><span> 地址：佛山市南海品锐机械有限公司</span>
 			</div>
 		</div>
 		<div class="map">

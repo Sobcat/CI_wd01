@@ -2,9 +2,9 @@
 		<div class="banner-content common-width">
 			<div class="banner-block-mian">
 				<div class="bbm-text">
-					<span>内容内容</span>
-					<span>内容内容</span>
-					<p>内容内容内容内容内容内容内容内容</p>
+					<span>品锐机械</span>
+					<span>专注成熟</span>
+					<p>为成为行业的领导品牌而不懈努力</p>
 				</div>
 			</div>
 			<div class="banner-block-min01"></div>

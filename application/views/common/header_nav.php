@@ -1,6 +1,6 @@
 <header>
   <div class="header-contect common-width clearfix">
-    <div class="header-logo"><a href="/"><img src="http://watch-1058141.pic41.websiteonline.cn/upload/logo.png" alt=""></a><span>天凉好个秋</span></div>
+    <div class="header-logo"><a href="/"><img src="../../../assets/images/logo.png" alt=""></a><span>佛山品锐机械</span></div>
     <nav id="header-menu" class="header-menu">
       <ul>
         <li><a href="/">网站首页</a></li>

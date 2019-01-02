@@ -10,7 +10,7 @@ ol {
 html,
 body {
   min-width: 1200px;
-  font-family: "Microsoft YaHei";
+  font-family: "Microsoft YaHei",'微软雅黑';
   font-size: 14px;
   color: #101010
 }
@@ -78,11 +78,12 @@ header {
 .header-logo {
   display: flex;
   align-items: center;
+  height: 66px;
 }
 
 .header-logo img {
   display: block;
-  width: 100%;
+  width: 80%;
 }
 
 .header-logo span {
@@ -406,7 +407,11 @@ header {
     margin: 0;
     color: #ffc600;
   }
-
+  .a-text{
+    font-size: 16px;
+    text-indent: 32px;
+    line-height: 1.8;
+  }
   .title {
     padding-bottom: 10px;
     border-bottom: 1px solid #c8c8c8;
@@ -465,6 +470,7 @@ header {
   }
   
 }
+
 @media only screen and (max-width: 750px) {
   .about{
     padding-bottom: calc(100vw/7);
@@ -473,6 +479,9 @@ header {
     text-align: center;
     font-size: 20px;
     color: #ffc600;
+  }
+  .disnone{
+    display: none;
   }
   .a-text{
     float: right;
