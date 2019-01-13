@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<p>如果对我们的产品有订购需求或者有什么建议，欢迎在线留言，我们真诚为您服务！</p>
 					<h1>欢迎留言</h1>
 				</div>
-				<img src="/assets/images/lyt1.jpg" alt="">
+				<img src="/pinrui/assets/images/b1.jpg" alt="">
 			</div>
 		</div>
 	</div>

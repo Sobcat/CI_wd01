@@ -6,5 +6,6 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="format-detection" content="telephone=no" />
 
-	<link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="shortcut icon" href="/pinrui/assets/images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+	<link rel="stylesheet" href="/pinrui/assets/css/style.css">

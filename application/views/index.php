@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="title clearfix">
 					<h1 class="">公司简介</h1>
 					<span  class="">
-						<a href="">MORE</a>
+						<a href="">查看更多</a>
 					</span>
 				</div>
 				<div class="a-text">
@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 			<div class="about-img">
-				<img src="/assets/images/home_about.jpg" alt="img">
+				<img src="/pinrui/assets/images/home_about.jpg" alt="img">
 				<span></span>
 			</div>
 		</div>
@@ -49,20 +49,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="title clearfix">
 					<h1 class="">产品展示</h1>
 					<span  class="">
-						<a href="">MORE</a>
+						<a href="">查看更多</a>
 					</span>
 			</div>
 			<ul class="product-list clearfix product-list-01">
-				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
-				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
-				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
-				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
+				<li><a href="/pinrui/index/product_detail/1"><img src="/pinrui/assets/images/pro/001.png" alt=""><span>带式冷床</span></a></li>
+				<li><a href="/pinrui/index/product_detail/2"><img src="/pinrui/assets/images/pro/002.png" alt=""><span>平移式冷床</span></a></li>
+				<li><a href="/pinrui/index/product_detail/3"><img src="/pinrui/assets/images/pro/003.png" alt=""><span>非交接式牵引机</span></a></li>
+				<li><a href="/pinrui/index/product_detail/4"><img src="/pinrui/assets/images/pro/004.png" alt=""><span>交接式牵引机</span></a></li>
 			</ul>
 			<ul class="product-list clearfix product-list-02">
-				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
-				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
-				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
-				<li><a href=""><img src="/assets/images/kl.jpg" alt=""><span>名字</span></a></li>
+				<li><a href="/pinrui/index/product_detail/5"><img src="/pinrui/assets/images/pro/005.png" alt=""><span>小型牵引机</span></a></li>
+				<li><a href="/pinrui/index/product_detail/6"><img src="/pinrui/assets/images/pro/006.png" alt=""><span>调直机</span></a></li>
+				<li><a href="/pinrui/index/product_detail/7"><img src="/pinrui/assets/images/pro/007.png" alt=""><span>冷却系统</span></a></li>
+				<li><a href="/pinrui/index/product_detail/8"><img src="/pinrui/assets/images/pro/008.png" alt=""><span>成品锯/定尺台</span></a></li>
 			</ul>
 	</div>
 	<!-- 产品展示 end-->
@@ -83,8 +83,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div><button>提交</button></div>
 			</form>
 			<div class="om-img-container">
-				<img src="/assets/images/lyt1.jpg" alt="">
-				<img src="/assets/images/lyt1.jpg" alt="">
+				<img src="/pinrui/assets/images/b1.jpg" alt="">
+				<img src="/pinrui/assets/images/b2.jpg" alt="">
 			</div>
 		</div>
 	</div>

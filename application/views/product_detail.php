@@ -23,21 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="common-width product sub-page">
 			<h1 class="">产品展示</h1>
 			<div class="product-detail">
-				<div class="product-detail-left">
-					<!-- 产品图片 -->
-					<div class="img-min">
-						<!-- 小图 -->
-						<img src="/assets/images/lyt1.jpg" alt="">
-						<span id="mousebg"></span>
-					</div>
-					<!-- 放大图 -->
-					<div class="img-max">
-						<img src="/assets/images/lyt1.jpg" alt="" id="img-max-img">
-					</div>
-				</div>
-				<div class="product-detail-right">
-
-				</div>
+				<?php $this->load->view('product/pro'.$pn.'.php');?>
 			</div>
 			
 

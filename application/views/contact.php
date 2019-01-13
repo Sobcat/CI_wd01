@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<h1>全国服务热线：0757-81826024</h1>
 			<div class="contact-text" style="font-family: 微软雅黑; font-size: 16px; line-height: 312%; color: rgb(62, 61, 	61);">
 				<span>电话：0757-81826024 / 0757-81826034 </span><span>传真：0757-81792989</span><span></span><div class="ye"></div>
-				<span>邮箱：PINRUIJIXIE@163.com</span><span> 地址：佛山市南海品锐机械有限公司</span>
+				<span>邮箱：PINRUIJIXIE@163.com</span><span> 地址：佛山市南海区大沥颜峰大道28号</span>
 			</div>
 		</div>
 		<div class="map">
@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=67jMQ5DmYTe1TLMBKFUTcZAR"></script>
     <script>
 			$(function() {
-				ShowMap('113.078959,23.060835', ' Co.,Ltd', 'No.1 ,next to Jiebian primary school, Luocun, Foshan', '', '', '10');
+				ShowMap('113.078959,23.060835', '品锐机械', '佛山市南海区大沥颜峰大道28号', '', '', '10');
 			})
 
 			function getInfo(id) {

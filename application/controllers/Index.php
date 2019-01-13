@@ -30,9 +30,10 @@ class Index extends CI_Controller {
 		$this->load->view('product');
 	}
 	// 产品detail
-	public function product_detail()
+	public function product_detail($pn='')
 	{
-		$this->load->view('product_detail');
+		$data['pn']=$pn;
+		$this->load->view('product_detail',$data);
 	}
 
 	// 留言
