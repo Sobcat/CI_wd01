@@ -4,11 +4,11 @@
     <nav id="header-menu" class="header-menu">
       <ul>
         <li><a href="/pinrui/">网站首页</a></li>
-        <li><a href="/pinrui/index/about">公司简介</a></li>
-        <li><a href="/pinrui/index/product">产品中心</a></li>
-        <li><a href="/pinrui/index/message">在线留言</a></li>
-        <li><a href="/pinrui/index/contact">联系我们</a></li>
-        <li><a href="/pinrui/index/index/en">English</a></li>
+        <li><a href="/pinrui/index.php/index/about">公司简介</a></li>
+        <li><a href="/pinrui/index.php/index/product">产品中心</a></li>
+        <li><a href="/pinrui/index.php/index/message">在线留言</a></li>
+        <li><a href="/pinrui/index.php/index/contact">联系我们</a></li>
+        <li><a href="/pinrui/index.php/index/index/en">English</a></li>
         <li id="menu-close" class="mini-menu-close"><a href="javascript:void(0);">返回</a></li>
       </ul>
 
