@@ -1,15 +1,19 @@
+<?php
+$this->lang->load('base', $_SESSION['language']);
+$nav = $this->lang->line('nav');
+?>
 <header>
   <div class="header-contect common-width clearfix">
-    <div class="header-logo"><a href="/"><img src="/pinrui/assets/images/logo.png" alt=""></a><span>佛山品锐机械</span></div>
+    <div class="header-logo"><a href="/"><img src="/pinrui/assets/images/logo.png" alt=""></a><span><?php echo $this->lang->line('web_name');?></span></div>
     <nav id="header-menu" class="header-menu">
       <ul>
-        <li><a href="/pinrui/">网站首页</a></li>
-        <li><a href="/pinrui/index.php/index/about">公司简介</a></li>
-        <li><a href="/pinrui/index.php/index/product">产品中心</a></li>
-        <li><a href="/pinrui/index.php/index/message">在线留言</a></li>
-        <li><a href="/pinrui/index.php/index/contact">联系我们</a></li>
-        <li><a href="/pinrui/index.php/index/index/en">English</a></li>
-        <li id="menu-close" class="mini-menu-close"><a href="javascript:void(0);">返回</a></li>
+        <li><a href="/pinrui/"><?php echo $nav['home'];?></a></li>
+        <li><a href="/pinrui/index.php/index/about"><?php echo $nav['about'];?></a></li>
+        <li><a href="/pinrui/index.php/index/product"><?php echo $nav['product'];?></a></li>
+        <li><a href="/pinrui/index.php/index/message"><?php echo $nav['message'];?></a></li>
+        <li><a href="/pinrui/index.php/index/contact"><?php echo $nav['contact'];?></a></li>
+        <li><a href="/pinrui/index.php/index/index/<?php echo $_SESSION['language']=='chinese'?'en':'cn';?>"><?php echo $_SESSION['language']=='chinese'?'English':'中文';?></a></li>
+        <li id="menu-close" class="mini-menu-close"><a href="javascript:void(0);"><?php echo $nav['back'];?></a></li>
       </ul>
 
     </nav>

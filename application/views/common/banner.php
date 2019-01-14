@@ -1,10 +1,13 @@
+<?php
+$banner = $this->lang->line('banner');
+?>
 <div class="banner">
 		<div class="banner-content common-width">
 			<div class="banner-block-mian">
 				<div class="bbm-text">
-					<span>创大众精品</span>
-					<span>超类端水平</span>
-					<p>提供技术领先的铝型材配机械设备，为成为行业的领导品牌而不懈努力！</p>
+					<span><?php echo $banner['title1'];?></span>
+					<span><?php echo $banner['title2'];?></span>
+					<p><?php echo $banner['text'];?></p>
 				</div>
 			</div>
 			<div class="banner-block-min01"></div>

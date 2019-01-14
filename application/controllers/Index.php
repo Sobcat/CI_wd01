@@ -11,10 +11,20 @@ class Index extends CI_Controller {
 	{
 			parent::__construct();
 			// Your own constructor code
+			$this->load->library('session');
 	}
 	// 首页
-	public function index() 
+	public function index($lang='') 
 	{
+		if($lang=='cn'){
+			$this->session->set_userdata('language','chinese');
+		}elseif($lang=='en'){
+			$this->session->set_userdata('language','english');
+		}
+		if(!isset($_SESSION['language'])){
+			$this->session->set_userdata('language','chinese');
+		}
+
 		$this->load->view('index');
 	}
 

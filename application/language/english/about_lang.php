@@ -1,0 +1,12 @@
+<?php
+// 
+
+$lang['about_p1']='Foshan Nanhai Pinrui Machinery Co., Ltd. Located at Nanhai Guangdong, the Chinese famous architecture aluminum profile production base where is concentrated high and new technology, is a professional technology enterprises specialized in development, manufacture, and sales of various aluminum profile production line supporting machine. At present, the core products of the company are automatic aluminum profile equipment such as multi-function dragger, sliding table, finished saw etc., meanwhile, the company business scope extend to aluminum profile mechanical reformation and equipment installation, which can provide perfect one-stop service for customers. ';
+$lang['about_p2']="The company relies on years of dedication and mature technology in the field of aluminum profile supporting machinery and equipment, the company has formed a core competitive advantage with strong technical force, strong mechanical processing capacity and meticulous market service. The company has a high-tech and stable staff team, which has established the quality advantage of products, and has a complete management system and operation system to promote the development of enterprises. With advanced management mode and excellent traditional fine made culture, it is our persistent operating principle to provide excellent quality, high quality service and meet customers' needs.";
+$lang['about_p3']="The company has been committed to providing quality services to our customers, relying on a flexible and experienced management team and a tight operating structure, enabling the company to anticipate and respond quickly to customers' needs. The company has perfect technical support capability and perfect quality system. For a long time, the company's product sales throughout the country, well trusted and highly accepted by aluminum profile manufacturers. Pinrui machinery will continue to provided customers with leading technology on aluminum profile supporting machinery equipment, make unremitting efforts to become a leading brand in the industry!";
+$lang['about_p4']='<p>Business Scope:</p>
+<p>Automatic dragger(Three heads and two rails Type, Double heads connected type, Small double dragger)</p>
+<p>Automatic Sliding table(Belt Type, Smooth and steady type, Synchronous belt type)</p>
+<p>Online quenching system</p>
+<p>Finished saw</p>
+<p>Aluminum profile straightener</p>';
