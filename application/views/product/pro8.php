@@ -1,14 +1,6 @@
-<h2>成品锯／定尺台</h2>
+<h2><?php echo $this->lang->line('pro8_title');?></h2>
+
 <img src="/pinrui/assets/images/pro/008.png" alt="">
 
-<p>成品锯主要用途：</p>
-<p>对钢、铝、塑，管材及板材锯切的设备，具有锯切精度高。锯口垂直作用</p>
-<p>主要参数：</p>
-<p>1）压料方式：气动，液动两种</p>
-<p>2）功率：5.5KW－15KW</p>
-<p>3）压力：＞5Mpa平方米</p>
-<p>4）有效加工尺寸：12寸－20寸</p>
-<p>主要种类：</p>
-<p>1）带压料成品锯</p>
-<p>2）不带压料成品锯</p>
-<p>斜度成品锯</p>
+<?php echo $this->lang->line('pro8_derection');?>
+

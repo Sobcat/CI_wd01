@@ -8,7 +8,7 @@
       <div class="search fr">
         <h1><?php echo $this->lang->line('phone');?>0757-81826024</h1>
         <div>
-          <input type="text" name="keywords" value="输入产品关键字"><span><?php echo $this->lang->line('search');?></span>
+          <input type="text" name="keywords" value="<?php echo $this->lang->line('search_tip');?>"><span><?php echo $this->lang->line('search');?></span>
         </div>
       </div>
     </div>

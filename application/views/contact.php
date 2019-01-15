@@ -19,12 +19,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<?php $this->load->view('common/banner');?>
 	<!-- banner end -->
 	<div class="common-width sub-page">
-		<h1 class="">联系我们</h1>
+		<h1 class=""><?php echo $this->lang->line('nav')['contact'];?></h1>
 		<div class="contact-title">
-			<h1>全国服务热线：0757-81826024</h1>
+			<h1><?php echo $this->lang->line('phone');?>0757-81826024</h1>
 			<div class="contact-text" style="font-family: 微软雅黑; font-size: 16px; line-height: 312%; color: rgb(62, 61, 	61);">
-				<span>电话：0757-81826024 / 0757-81826034 </span><span>传真：0757-81792989</span><span></span><div class="ye"></div>
-				<span>邮箱：PINRUIJIXIE@163.com</span><span> 地址：佛山市南海区大沥颜峰大道28号</span>
+				<span><?php echo $this->lang->line('tel');?>：0757-81826024 / 0757-81826034 </span><span><?php echo $this->lang->line('fax');?>：0757-81792989</span><span></span><div class="ye"></div>
+				<span><?php echo $this->lang->line('email');?>：PINRUIJIXIE@163.com</span><span><?php echo $this->lang->line('add');?><?php echo $this->lang->line('addr');?></span>
 			</div>
 		</div>
 		<div class="map">
@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=67jMQ5DmYTe1TLMBKFUTcZAR"></script>
     <script>
 			$(function() {
-				ShowMap('113.078959,23.060835', '品锐机械', '佛山市南海区大沥颜峰大道28号', '', '', '10');
+				ShowMap('113.078959,23.060835', "<?php echo $this->lang->line('web_name');?>", "<?php echo $this->lang->line('addr');?>", '', '', '10');
 			})
 
 			function getInfo(id) {

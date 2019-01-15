@@ -809,7 +809,7 @@ footer{
 }
 @media only screen and (min-width: 751px) {
   .sp-about{
-    height: 810px;
+    
   }
   .sp-about .a-img{
     float: left;
@@ -827,11 +827,11 @@ footer{
     background: none;
   }
   .sp-about .a-text{
-    position: absolute;
     font-size: 16px;
     width: 70%;
-    top: 200px;
-    right: 0;
+    text-align: justify;
+    float: right;
+    padding-top: 110px;
   }
 }
   
@@ -875,6 +875,9 @@ footer{
 .product-detail{
   margin: 0 auto;
   width: 80%;
+}
+.product-detail p{
+  text-align: justify;
 }
 /* .product-detail img{
   display: block;

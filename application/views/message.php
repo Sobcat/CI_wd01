@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$this->lang->load('message', $_SESSION['language']);
 ?>
 <!DOCTYPE html>
 <html lang="">
@@ -19,21 +20,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- banner end -->
 	<!-- 在线留言 -->
 	<div class="common-width online-message sub-page">
-		<h1 class="">在线留言</h1>
+		<h1 class=""><?php echo $this->lang->line('nav')['message'];?></h1>
 		<div class="clearfix">
 			<form action="" class="">
-				<h3>标题</h3>
+				<h3><?php echo $this->lang->line('mes_title');?></h3>
 				<div><input type="text" name='mes-title'></div>
-				<h3>手机<strong>*</strong></h3>
+				<h3><?php echo $this->lang->line('mes_phone');?><strong>*</strong></h3>
 				<div><input type="text" name='mes-phone'></div>
-				<h3>内容</h3>
+				<h3><?php echo $this->lang->line('mes_message');?></h3>
 				<div><textarea name="mes-text" id=""  style="resize:none;"></textarea></div>
-				<div><button>提交</button></div>
+				<div><button><?php echo $this->lang->line('mes_submit');?></button></div>
 			</form>
 			<div class="om-img-container">
 				<div class="fl"> 
-					<p>如果对我们的产品有订购需求或者有什么建议，欢迎在线留言，我们真诚为您服务！</p>
-					<h1>欢迎留言</h1>
+					<p><?php echo $this->lang->line('mes_derection');?></p>
+					<h1><?php echo $this->lang->line('mes_welcome');?></h1>
 				</div>
 				<img src="/pinrui/assets/images/b1.jpg" alt="">
 			</div>

@@ -1,9 +1,6 @@
-<h2>调直机</h2>
+<h2><?php echo $this->lang->line('pro6_title');?></h2>
+
 <img src="/pinrui/assets/images/pro/006.png" alt="">
 
-<p>说明：</p>
-<p>拉直机主要用于铝型材挤压成型后的校直和拉伸矫直，消除内应力防止其二次变形
-性能</p>
-<p>根据挤压机吨位的不同，可配置15T－－－500T拉力吨位</p>
-<p>钳口型式有手动、液压（气动）夹紧，手动、电动转向摆头</p>
-<p>调直操作形式有双人调直、单人调直和全自动调直方式。</p>
+<?php echo $this->lang->line('pro6_derection');?>
+

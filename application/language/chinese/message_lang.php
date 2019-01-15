@@ -6,3 +6,4 @@ $lang['mes_title']='标题';
 $lang['mes_phone']='手机';
 $lang['mes_message']='内容';
 $lang['mes_submit']='提交';
+$lang['mes_welcome']='欢迎留言';

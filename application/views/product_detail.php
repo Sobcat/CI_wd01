@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$this->lang->load('product_detail', $_SESSION['language']);
 ?>
 <!DOCTYPE html>
 <html lang="">
@@ -21,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		
 	<!-- 产品展示 -->
 	<div class="common-width product sub-page">
-			<h1 class="">产品展示</h1>
+			<h1 class=""><?php echo $this->lang->line('nav')['product'];?></h1>
 			<div class="product-detail">
 				<?php $this->load->view('product/pro'.$pn.'.php');?>
 			</div>

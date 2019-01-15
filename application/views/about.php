@@ -22,9 +22,9 @@ $this->lang->load('about', $_SESSION['language']);
 	<?php $this->load->view('common/banner');?>
 	<!-- banner end -->
 	<!-- 简介 -->
-	<div class="common-width sub-page sp-about">
+	<div class="common-width sub-page sp-about clearfix">
 		<h1 class=""><?php echo $this->lang->line('nav')['about'];?></h1>
-		<div class="clearfix" style="position: relative;">
+		<div class="clearfix" style="position: absolute;width:100%;">
 			<div class="a-img">
 				<img src="/pinrui//assets/images/home_about.jpg" alt="img">
 				<img src="/pinrui//assets/images/gsnxx.png" alt="img">
