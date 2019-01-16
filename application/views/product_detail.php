@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-$this->lang->load('product_detail', $_SESSION['language']);
+$this->lang->load('productDetail', $_SESSION['language']);
 ?>
 <!DOCTYPE html>
 <html lang="">
